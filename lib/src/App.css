@@ -1,0 +1,20 @@
+nav{
+  display:  flex;
+  justify-content: space-around;
+}
+.container-hero{
+  display: grid;
+  grid-template-columns: 20% 10% repeat(5,1fr);
+  width: 100vw;
+  
+}
+.title{
+  display: grid;
+  grid-template-columns: 30%  repeat(5,1fr);
+  width: 100vw;
+  
+}
+.icon-rank{
+  height: 45px;
+  width: 45px;
+}
