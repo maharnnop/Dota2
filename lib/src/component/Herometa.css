@@ -1,0 +1,30 @@
+img{
+    border-radius: 20px;
+}
+
+.container-hero{
+    display: grid;
+    grid-template-columns: 20% 20% repeat(3,1fr);
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+    background-color: #1c0608;
+   
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+    
+    
+}
+
+.name{
+    text-align: center;
+    /* margin-top: 100px; */
+    color: #c06e52;
+    text-shadow: 5px 2px #312e2e;
+}
+
+.pick,.win,.winrate{
+    color: #fbf2c0;
+    font-family: Merriweather;
+    font-size: 20px;
+}
