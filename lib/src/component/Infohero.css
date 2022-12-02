@@ -1,0 +1,91 @@
+.containner-infohero{
+    background-color: #48392a;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:50px 1fr 50px fit-content(2fr)  ;
+}
+
+.title-infohero{
+    grid-area: 1/1/2/2;
+    display: flex ;
+    /* padding: 20px; */
+}
+.title-infohero img{
+    width: 80px;
+}
+h1{
+    font-family: Merriweather;
+  /* width: 100%;
+  height: 100%; */
+  padding:20px;
+  color: rgb(209, 76, 42);
+  text-shadow: 5px 2px #000000;
+}
+.role-title{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+h3{
+    
+}
+
+.role-title h3{
+  margin: auto;
+  font-family: Merriweather;
+  color: rgb(209, 76, 42);
+  text-shadow: 5px 2px #000000;
+}
+.img-hero{
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.5);
+    grid-area: 2/1/3/2;
+}
+.video-hero{
+    grid-area: 1/2/5/3;
+    height: 70vh;
+}
+.role-lane{
+    grid-area: 3/1/5/2;
+    
+}
+#add{
+    grid-area: 1/3/2/4;
+}
+#dis{
+    grid-area: 3/3/4/4;
+}
+.add-icon, .dis-icon {
+    display: flex;
+    justify-content: space-around;
+
+}
+.h-bar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: flex-end;
+    justify-items: center;
+    
+}
+.h-bar h4,span{
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-size: 18px;
+}
+.bar {
+    width: 40px;
+   margin:auto;
+   transform: rotate(180deg);
+   border:5px solid black;
+
+}
+.add-hero img,.dis-hero img{
+    height: 60px ;
+    width: 60px;
+    margin: auto;
+}
+.add-hero h4,.dis-hero h4{
+   text-align: center;
+   color: white;
+    text-shadow: 2px 2px #000000;
+
+}

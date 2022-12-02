@@ -2,4 +2,19 @@
     height: 60px;
     width: 60px;
     cursor: pointer;
+   
 }
+.hero{
+    padding-top: 70px;
+}
+.icon-hero:hover{
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

@@ -3,7 +3,7 @@
 }
 .meta-title{
     display: grid;
-    grid-template-columns: 320px  100px auto;
+    grid-template-columns: 350px  100px auto;
     
     align-items: center;
     width: 100vw;
