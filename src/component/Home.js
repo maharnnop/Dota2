@@ -4,13 +4,14 @@ import ReactPlayer from "react-player";
 const Home =()=>{
  return <div className="home-main">
  {/* <h1 className="home-title">inside HOME</h1> */}
-  <ReactPlayer
+  {/* <ReactPlayer
           url='https://thumbs.gfycat.com/SmallAshamedAcaciarat-mobile.mp4'
           className='react-player'
           playing
           width='100vw'
           height='90vh'
-        /> 
+        />  */}
+<h1 className="join">Dota2 assistant</h1>
 
 {/* <ReactPlayer
           url='https://thumbs.gfycat.com/NewEveryBeardedcollie-mobile.mp4'

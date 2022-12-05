@@ -18,3 +18,9 @@
       transform: rotate(359deg);
     }
   }
+
+  @media screen and (max-width: 850px) {
+    .hero{
+      padding-top: 10px;
+  }
+  }

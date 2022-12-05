@@ -5,7 +5,7 @@
     /* overflow: hidden; */
     /* align-items: center; */
     background-position:center;
-
+    background-size: 100% auto;
     background-image: url('https://i.pinimg.com/originals/32/8c/74/328c741a24a3fec71e2014030fc3d363.jpg');
 }
 
@@ -14,8 +14,17 @@
     align-content: center;
     justify-content: center;
 }
-h1{
+.join{
     margin: 0;
+    position: absolute;
+    bottom: 100px;
+    text-shadow: 2px 2px white;
+    font-size: 40px;
+    background-color: #192527;
+    border-radius: 50px;
+
+
+
 }
 .home-title{
     color: #192527;

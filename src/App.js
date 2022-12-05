@@ -37,7 +37,7 @@ useEffect(()=>{
         <Link to='/'><h2>HOME</h2></Link>
         <Link to='/meta'><h2>META</h2></Link>
         <Link to='/heroes'><h2>HEROES</h2></Link>
-        <Link to='/about'><h2>ABOUT</h2></Link>
+        {/* <Link to='/about'><h2>ABOUT</h2></Link> */}
       </nav>
       <main>
       <Routes>

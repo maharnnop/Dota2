@@ -11,6 +11,9 @@ nav{
   height: 60px;
   background-color: #43281c;
 }
+body{
+  background-color:#48392a;
+}
 .logo{
   margin-top: 10px;
   height: 100%;
@@ -32,6 +35,27 @@ a{
 }
 a:hover{
   background-color: #48392a;
+}
+
+@media screen and (max-width: 850px) {
+  .logo{
+    display: none;
+  }
+  nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 60px;
+    align-items: center;
+    height: 60px;
+
+  }
+  h2{
+   font-size: 20px;
+
+
+   
+    
+  }
 }
 
 

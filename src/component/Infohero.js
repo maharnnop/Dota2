@@ -135,7 +135,15 @@ return (
         className="img-hero"
         src={`https://cdn.cloudflare.steamstatic.com${props.detail.img}`}
       />
-
+<div id="video-hero">
+<ReactPlayer
+        url={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${props.detail.localized_name.toLowerCase()}.webm`}
+        className="video-hero"
+        playing
+        loop
+        width="100%"
+        height="100%"
+      /></div>
       <div className="role-lane ">
         <h1>Role : <span>( games / winrate )</span></h1>
         <div className="role-title"> 
@@ -149,14 +157,7 @@ return (
              </div>
       </div>
 
-      <ReactPlayer
-        url={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${props.detail.localized_name.toLowerCase()}.webm`}
-        className="video-hero"
-        playing
-        loop
-        width="600px"
-        height="500px"
-      />
+      
 
       <h1 id="add">Adventage</h1>
 
