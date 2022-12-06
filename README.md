@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Project: Dota 2 assitant 
+## Installation: 
+No need.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Links:
+- Wireframe:
+![image](https://user-images.githubusercontent.com/116508084/205800574-d3953ed8-8939-4787-a5c4-ab7e0369fd69.png)
+![image](https://user-images.githubusercontent.com/116508084/205800663-42eb9c77-4a31-4e2b-941e-fbbcbfb5d2e8.png)
+![image](https://user-images.githubusercontent.com/116508084/205800743-1fdad3cf-8df7-4078-b620-0f9948a8287c.png)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+- [App link](https://main--dota2-assist.netlify.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preview
 
-### `npm test`
+This is a Dota2 assitant app, that allow user see most winrate hero and explore hero stat .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology used:
 
-### `npm run build`
+- I used javascript, css ,React and html.
+- I used api (opendota).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Approach:
+The main approach to the app is uising database api for calculate and arrange then show to my app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Main features:
+- Meta page show the most winrate that filter by rank of player.
+- Hero page show icon all hero and click to see infomation of hero .
+- information hero page show winrate of hero that filter by role lane , adventage hero show the most winrate against other heroes, and disadventage hero show the less winrate against other heroes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## User Stories
+- As a user, I should be able to click item in header to navigate to other page.
+- As a user, I should be able to select filter of rank to filter hero by rank in meta page.
+- As a user, I should be able to click icon of hero in heropage.
+- As a user, It should be shown a hero infomation after click icon hero in hero page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What left?
