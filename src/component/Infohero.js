@@ -163,11 +163,11 @@ return (
 
       
 
-      <h1 id="add">Adventage</h1>
+      <h1 id="add">Advantage</h1>
 
       <div className="add-icon">{adventageHtml}</div>
 
-      <h1 id="dis">Disadventage</h1>
+      <h1 id="dis">Disadvantage</h1>
       <div className="dis-icon">{disadventageHtml}</div>
 
      
