@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 const Heromodel =(props)=>{
 return (
     <ReactPlayer
-        url={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${props.name.toLowerCase()}.webm`}
+        url={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${props.name.toLowerCase().replace(' ', '_')}.webm`}
         className="video-hero"
         playing
         loop
