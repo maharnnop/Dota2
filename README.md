@@ -41,3 +41,5 @@ The main approach to the app is uising database api for calculate and arrange th
 
 
 ## What left?
+1.recomment combination hero with teammate
+2.show trend of hero by rank and role
