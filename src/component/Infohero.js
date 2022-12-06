@@ -126,7 +126,7 @@ const Infohero = (props) => {
 return (
     <div className="containner-infohero">
       <div className="title-infohero">
-        <img
+        <img className="icon-heroinfo"
           src={`https://cdn.cloudflare.steamstatic.com${props.detail.icon}`}
         />
         <h1>{props.detail.localized_name}</h1>
