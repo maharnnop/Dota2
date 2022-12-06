@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import "./Infohero.css";
+import Heromodel from "./Heromodel";
 
 const Infohero = (props) => {
   const [adventageList, setAdventageList] = useState([]);
@@ -15,7 +16,7 @@ const Infohero = (props) => {
     axios
       .get(`https://api.opendota.com/api/heroes/${props.detail.id}/matchups`)
       .then((res) => {
-        console.log(res.data);
+        
         let cleanData = res.data.map((item) => {
           return { ...item, winrate: (item.wins / item.games_played) * 100 };
         });
@@ -49,7 +50,7 @@ const Infohero = (props) => {
             parseInt(roleObj[`${item.lane_role}`][1]) + parseInt(item.wins);
           roleObj.all = parseInt(roleObj.all) + parseInt(item.games);
         });
-        console.log(roleObj);
+       
         let barchart = [];
         for(let i=1 ; i<=3;i++){
             barchart.push( <div >
@@ -135,7 +136,7 @@ return (
         className="img-hero"
         src={`https://cdn.cloudflare.steamstatic.com${props.detail.img}`}
       />
-<div id="video-hero">
+{/* <div id="video-hero">
 <ReactPlayer
         url={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${props.detail.localized_name.toLowerCase()}.webm`}
         className="video-hero"
@@ -143,7 +144,10 @@ return (
         loop
         width="100%"
         height="100%"
-      /></div>
+      /></div> */}
+      <div id="video-hero">
+      <Heromodel name={props.detail.localized_name}/>
+      </div>
       <div className="role-lane ">
         <h1>Role : <span>( games / winrate )</span></h1>
         <div className="role-title"> 
